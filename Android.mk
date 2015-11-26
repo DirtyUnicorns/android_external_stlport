@@ -48,6 +48,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := $(libstlport_src_files)
 
 LOCAL_MODULE := libstlport
+LOCAL_MODULE_TAGS := optional
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
 
 LOCAL_CFLAGS := $(libstlport_cflags)
